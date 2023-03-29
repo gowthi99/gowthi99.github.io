@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+
+}
+.gow{
+ width: 300px;
+ padding: 30px;
+ top:50%;
+ left:50%;
+ transform: translate(90%,70%); 
+ background: rgba(0, 0, 0, 0.4);
+ text-align:center;
+
+
+}
+.gow h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.gow input[type="email"], .gow input[type="password"], .gow input[type="text"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #56ed90;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 0;
+    transition: 0.25px;
+}
+
+.gow input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #56ed90;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.gow input[type="submit"]:hover {
+    background: #56ed90;
+    color: white;
+    font-weight: bold;
+
+}
+
+.gow label {
+
+    color: white;
+}
+.gow input[type="submit"]{
+    
+}
