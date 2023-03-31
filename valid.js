@@ -20,7 +20,7 @@ else{
 
 function validate(){
 var p = document.getElementById("pass");
-var u = document.getElementById("username")
+var u = document.getElementById("username").value;
 var lenght = document.getElementById("length");
 
          
