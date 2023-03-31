@@ -20,6 +20,7 @@ else{
 
 function validate(){
 var p = document.getElementById("pass");
+var u = document.getElementById("username")
 var lenght = document.getElementById("length");
 
          
@@ -30,5 +31,20 @@ if(p.value.length <8){
 else{
     window.location.replace("page1.html");
 }
+aptrinsic("identify",
+  {
+  //User Fields
+    "id": "unique-user-id", // Required for logged in app users
+    "email": u,
+    "firstName": "Gowtham",
+    "lastName": "1999",
+    
+  },
+  {
+  //Account Fields
+    "id":"SDK", //Required
+    "name":"PX Demo Company latest",
+    "Program": "Platinum" // flat custom attributes
+ });
 
 }
